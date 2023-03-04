@@ -1,0 +1,55 @@
+img {
+    border-radius: 150px;
+    float: right;
+    margin-right: 50px;
+}
+
+.beethoven {
+    float: right;
+    margin-right: 50px;
+}
+
+table {
+    float: left;
+    margin-left: 50px;
+}
+
+textarea {
+    float: none;
+    margin-left: 500px;
+}
+
+.Introduction {
+    padding: 10px;
+    background-color: #71a6eb;
+    border-radius: 15px;
+}
+
+.Spotify {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(13, 201, 6);
+    border-radius: 25px;
+    float: right;
+    margin-right: 100px;
+
+}
+
+.footers {
+    padding-inline: 10px;
+    height: 20px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+article {
+    display: grid;
+    grid-template-columns: 100px;
+
+    height: 500px;
+}
+
+article * {
+    grid-column: 1/3;
+}
