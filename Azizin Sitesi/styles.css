@@ -1,0 +1,104 @@
+.introText {
+    height: 100px;
+    width: 900px;
+}
+
+img {
+    border-radius: 150px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+
+}
+
+.ppText {
+    float: right;
+    text-align: center;
+}
+
+.beethoven {
+    float: right;
+    margin-right: 150px;
+}
+
+table {
+    float: left;
+    margin-left: 50px;
+}
+
+textarea {
+    float: none;
+    margin-left: 500px;
+}
+
+.Introduction {
+    height: 500px;
+    padding: 10px;
+    background-color: #71a6eb;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.spotify {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(13, 201, 6);
+    border-radius: 25px;
+    border: solid 2px;
+    float: right;
+    color: black;
+    margin-right: 200px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.spotify:hover {
+    background-color: rgb(69, 227, 6);
+    border: 2px solid;
+}
+
+.spotify:active {
+    opacity: 0.5
+}
+
+.footers {
+    padding-inline: 10px;
+    height: 20px;
+    width: 200px;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.linkingText {
+    transition: 0.3s;
+}
+
+.linkingText:hover {
+    font-size: 25px;
+}
+
+.footers:hover {
+    font-size: 20px;
+    padding-inline: 5px;
+    height: 25px;
+    width: 250px;
+    background-color: deepskyblue;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+input[type=submit]:hover {
+    background-color: darkgray;
+}
+
+input[type=submit]:active {
+    background-color: gray;
+}
