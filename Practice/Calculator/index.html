@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    button{ 
+        position: relative;
+     display: flex;
+     border: solid 1px black;
+     border-radius: 2px;
+     justify-content: center;
+     align-items: center;
+     margin: 5px;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: lightgrey;
+        transition: 0.5s;
+    }
+
+    #result{
+        background-color:cornsilk;
+    }
+
+    #result:hover{
+        cursor: pointer;
+        background-color:bisque;
+    }
+
+    .grid{
+        display:grid;
+        padding: 1rem;
+        box-shadow: 0px 0px 100px 10px lightgrey;
+        display: grid;
+        justify-content: center;
+        height: 500px;
+        width: 400px;
+        margin: 10%;
+
+        grid-template-columns: 10fr 10fr 10fr 10fr;
+        grid-template-rows: 15fr 15fr 15fr 15fr 15fr 15fr;
+
+        background-color: lavender;
+        border: solid black 1px;
+        border-radius: 5px;
+    }
+    #screen{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+        border: solid black 1px;
+        border-radius: 3px;
+        background-color:antiquewhite;
+
+       text-align: right;
+    }
+
+    #screen:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+    .n{
+        font-size: 20px;
+    }
+    </style>
+</head>
+<body>
+
+   
+    <div class="grid">
+        <div id="screen"><p></p></div>
+      
+        <button>C</button>    
+        <button>X</button>
+        <button>/</button>
+        <button>Backspace</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>(</button>
+        <button>0</button>
+        <button>)</button>
+        <button> Result</button>
+        <button>.</button>
+      
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
